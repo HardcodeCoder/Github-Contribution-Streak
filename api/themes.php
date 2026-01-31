@@ -3,17 +3,17 @@
 // mapping of theme colors given a theme name
 return [
     "default" => [
-        "background" => "#FFFEFE",
-        "border" => "#E4E2E2",
-        "stroke" => "#E4E2E2",
-        "ring" => "#FB8C00",
-        "fire" => "#FB8C00",
-        "currStreakNum" => "#151515",
-        "sideNums" => "#151515",
-        "currStreakLabel" => "#FB8C00",
-        "sideLabels" => "#151515",
-        "dates" => "#464646",
-        "excludeDaysLabel" => "#464646",
+        "background" => "#0D1117",
+        "border" => "#AAFF89",
+        "stroke" => "#AAFF89",
+        "ring" => "#AAFF89",
+        "currStreakNum" => "#FFFFFF",
+        "fire" => "#539BF5",
+        "sideNums" => "#FFFFFF",
+        "currStreakLabel" => "#FFFFFF",
+        "sideLabels" => "#FFFFFF",
+        "dates" => "#AAFF89",
+        "excludeDaysLabel" => "#39D353",
     ],
     "dark" => [
         "background" => "#151515",
