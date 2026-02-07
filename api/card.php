@@ -367,7 +367,7 @@ function formatNumber(float $num, string $localeCode, bool $useShortNumbers): st
  *
  * @throws InvalidArgumentException If a locale does not exist
  */
-function generateCard(array $stats, array $params = null): string
+function generateCard(array $stats, array|null $params = null): string
 {
     $params = $params ?? $_REQUEST;
 
@@ -615,7 +615,7 @@ function generateCard(array $stats, array $params = null): string
  * @param array<string,string>|NULL $params Request parameters
  * @return string The generated SVG error card
  */
-function generateErrorCard(string $message, array $params = null): string
+function generateErrorCard(string $message, array|null $params = null): string
 {
     $params = $params ?? $_REQUEST;
 
@@ -806,7 +806,7 @@ function convertSvgToPng(string $svg, int $cardWidth, int $cardHeight): string
  * @param array<string,string>|NULL $params Request parameters
  * @return array The Content-Type header and the response body, and status code in case of an error
  */
-function generateOutput(string|array $output, array $params = null): array
+function generateOutput(string|array $output, array|null $params = null): array
 {
     $params = $params ?? $_REQUEST;
 
